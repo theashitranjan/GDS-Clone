@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eee;
+    border: border-box;
+}
+
+.head-box{
+    width: 98%;
+    height:72px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #0077b6;
+    display: flex;
+    align-items:center;
+}
+
+.head-content{
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    background-image: src("logo1.png");
+    background-size: cover;
+    background-color: white;
+    width:200px;
+    
+}
+.logo-img {
+    height: 98%;
+    background-color: white;
+}
+.heading{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+#heading {
+    text-decoration: none;
+    display: flex;
+    color: #A80000;
+    font-size:12px;
+    font-face: Times;
+    background-color: white;
+}
+.emblem{
+    background-image: src("Emblem_of_India.png");
+    background-size: cover;
+    width:40px;
+    background-color: white;
+}
+
+.emb-img{
+    height:98%;
+    background-color: white;
+}
+
+/** menu **/
+
+.menu-box{
+    display: flex;
+    justify-content: space-between;
+    width:98%;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    background-color: white;
+}
+
+.menu {
+    width: 19%;
+    height: 10px;
+    font-weight: 600;
+    color: #0077b6;
+    background-color: white;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: spaced-between;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.22) 0px 3px 2px;
+}
+
+.menu p {
+    background: none;
+    font-size: .35rem;
+}
+/** Notice Scrolling **/
+
+.notice {
+    width: 98%;
+    height:20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #0077b6;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.22) 0px 3px 2px;
+
+}
+
+.notice marquee {
+    background-color: white;
+    width: 99%;
+    font-size: .50rem;
+    font-weight: 700;
+}
+font {
+    background-color: #fff;
+    color:red;
+}
+#notice-2 {
+    height:10px;
+}
+
+
+
+/** Main Box **/
+.main-box{
+    display: flex;
+    background: none;
+    width:100%;
+}
+.div-s {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:30%;
+    margin: 5px;
+    height:auto;
+    border:none;
+    
+}
+.div-l {
+    height:auto;
+    padding: 10px;
+    border:none;
+    width:100%;
+    margin-block: 5px;
+    margin-inline-end: 5px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.option {
+    background-color: #0077b6;
+    border:1px groove #0096B7;
+    border-radius:2px;
+    height: 15px;
+    color:white;
+    font-size: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2px;
+    padding-inline: 4px;
+}
+.div-s-head {
+    background-color: #0077b6;
+    height: 6%;
+    border: 1px solid #0096B7;
+    width: 90%;
+    font-size: .50rem;
+    color: #fff;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.list{
+    width: 100%;
+    height: 20px;
+    margin-block-start: none;
+  /**  border-top: 1px solid grey; **/
+    background: transparent;
+    box-shadow: 0px -1px 1px grey;
+    font-size: .35rem;
+    color:#0077b6 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list div {
+    padding: 2px;
+}
+
+.list:hover {
+    background-color:  #0077b6;
+    box-shadow: none;
+    color: yellow;
+    border-radius: 5px;
+    height: auto;
+}
+
+.foot{
+    margin-inline: 5px;
+    margin-block: 8px;
+    border: none;
+    height: auto;
+    background-color: #778dbd;
+    color: white;
+    font-size:.50rem;
+}
+#Diaclaimer {
+    font-size: 1rem;
+}
+p {
+    text-align:justify ;
+    text-justify:auto;
+    padding: 8px;
+}
+
+b,p,span,div{
+    background: none;
+}
+
+.foot-1 {
+    margin-inline: 5px;
+    border: 1px solid black;
+    background-color: #666;
+    display:flex;
+    justify-content: center;
+    padding-block: 5px;
+}
+
+.foot-sec {
+    font-size: .50rem;
+    color: #fff;
+    margin-inline: 10px;
+}
+
+#last {
+    
+    background-color: #0077b6;
+    width: 98%;
+}
+
+#last-p {margin-inline: 40px;
+    text-align: center;
+}

@@ -142,7 +142,7 @@ font {
     margin-block: 5px;
     margin-inline-end: 5px;
     display: grid;
-    grid-template-colums: repeat(5,auto);
+    grid-template-columns: repeat(5,auto);
 }
 
 .option {

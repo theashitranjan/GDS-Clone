@@ -152,9 +152,8 @@ font {
     height: 15px;
     color:white;
     font-size: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-colums: repeat(5,auto);
     margin: 2px;
     padding-inline: 4px;
 }
@@ -193,7 +192,7 @@ font {
     box-shadow: none;
     color: yellow;
     border-radius: 5px;
-    height: auto;
+    height: 20px;
 }
 
 .foot{

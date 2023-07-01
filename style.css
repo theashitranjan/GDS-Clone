@@ -141,7 +141,8 @@ font {
     width:100%;
     margin-block: 5px;
     margin-inline-end: 5px;
-    display:flex;
+    display: grid;
+    grid-template-colums: repeat(5,auto);
     flex-wrap: wrap;
 }
 
@@ -152,8 +153,6 @@ font {
     height: 15px;
     color:white;
     font-size: .5rem;
-    display: grid;
-    grid-template-colums: repeat(5,auto);
     margin: 2px;
     padding-inline: 4px;
 }

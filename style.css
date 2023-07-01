@@ -143,7 +143,6 @@ font {
     margin-inline-end: 5px;
     display: grid;
     grid-template-colums: repeat(5,auto);
-    flex-wrap: wrap;
 }
 
 .option {
